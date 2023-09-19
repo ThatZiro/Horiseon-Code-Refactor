@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
 }
 
 body {
@@ -13,7 +15,6 @@ header {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
-  color: #ffffff;
 }
 
 header h1 {
@@ -29,7 +30,6 @@ nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
@@ -40,7 +40,6 @@ nav a {
 }
 
 a {
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -61,13 +60,11 @@ aside {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
 
 aside section {
   margin-bottom: 32px;
-  color: #ffffff;
 }
 
 aside section h3 {
@@ -85,9 +82,7 @@ main section {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
-  color: #ffffff;
 }
 
 main section img {
@@ -97,7 +92,7 @@ main section img {
 }
 
 /* Alternate Main/Section/Img */
-.float-right {
+main section .float-right {
   float: right;
   margin: 0 0 0 25px;
 }
@@ -109,9 +104,14 @@ main section h2 {
 footer {
   padding: 30px;
   clear: both;
+  text-align: center;
+}
+
+footer p,
+footer h2 {
+  color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: center;
 }
 
 footer h2 {
