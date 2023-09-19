@@ -1,3 +1,4 @@
+/*===== Global Selector =====*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,10 +7,12 @@
   color: #ffffff;
 }
 
+/*===== Element Selectors =====*/
 body {
   background-color: #d9dcd6;
 }
 
+/*= Header =*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -43,6 +46,7 @@ a {
   text-decoration: none;
 }
 
+/*= Body =*/
 p {
   font-size: 16px;
 }
@@ -101,6 +105,8 @@ main section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/*= Footer =*/
 footer {
   padding: 30px;
   clear: both;
@@ -117,6 +123,8 @@ footer h2 {
 footer h2 {
   font-size: 20px;
 }
+
+/*===== Class Selectors =====*/
 
 .landpage-image {
   height: 800px;
